@@ -1,6 +1,34 @@
-# Getting Started with Create React App
+# Customers
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+
+### Prerequisites
+
+- Node: 16.13.0
+- yarn: 1.22.18
+
+### Install dependencies
+
+At root of the project, install dependencies by running `yarn` in the terminal
+
+    yarn
+
+## Configuration
+
+Create a `.env` file based on the `.env.example` at the root of your project
+
+| env name                                  | env description                                                 |
+| ----------------------------------------- | --------------------------------------------------------------- |
+| REACT_APP_AWS_APPSYNC_GRAPHQL_ENDPOINT    | the value of "aws_appsync_graphqlEndpoint" in aws-exports.js    |
+| REACT_APP_AWS_APPSYNC_REGION              | the value of "aws_appsync_region" in aws-exports.js             |
+| REACT_APP_AWS_APPSYNC_AUTHENTICATION_TYPE | the value of "aws_appsync_authenticationType" in aws-exports.js |
+| REACT_APP_AWS_APPSYNC_API_KEY             | the value of "aws_appsync_apiKey" in aws-exports.js             |
+
+## Running the application
+
+    yarn start
 
 ## Available Scripts
 
